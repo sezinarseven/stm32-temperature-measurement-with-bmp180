@@ -2,6 +2,8 @@
 
 This project is a temperature measurement system using the BMP180 Digital Barometric Air Pressure Sensor and the STM32 microcontroller with HAL library. The BMP180 sensor is a high-precision, low-power digital barometer that can be used to measure temperature, pressure, and altitude.
 
+![image](https://user-images.githubusercontent.com/88224304/226205648-2a3a008f-4419-4c6e-a89f-dbd7cb500b05.png)
+
 ## Requirements
 To use this project, you will need the following hardware and software:
 - STM32 microcontroller
