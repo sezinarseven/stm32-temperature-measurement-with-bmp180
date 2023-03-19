@@ -11,17 +11,25 @@ To use this project, you will need the following hardware and software:
 - STM32CubeIDE or other compatible IDE
 
 ## Installation
-1. Connect the BMP180 sensor to the STM32 microcontroller according to the pin configuration specified in the STM32CubeIDE's .ioc file.
-2. Download and install STM32CubeIDE or other compatible IDE.
-3. Download and import the project files from this GitHub repository.
-4. Build the project and flash the code onto the microcontroller.
+**1.** Connect the BMP180 sensor to the STM32 microcontroller according to the pin configuration specified in the STM32CubeIDE's .ioc file.
+
+**2.** Download and install STM32CubeIDE or other compatible IDE.
+
+**3.** Download and import the project files from this GitHub repository.
+
+**4.** Build the project and flash the code onto the microcontroller.
 
 ## Usage
 **1.** Power on the microcontroller and wait for it to initialize.
+
 **2.** Connect the microcontroller to your computer using a USB cable.
+
 **3.** Open STM Studio and connect to the microcontroller.
+
 **4.** In the Variables tab, you should see the temperature value being displayed.
+
 **5.** You can also observe the temperature value changing in real-time as the sensor is exposed to different temperatures.
+
 **6.** The measurement can be calibrated by adjusting the calibration constants in the code.
 
 ## Contributing
